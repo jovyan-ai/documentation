@@ -42,7 +42,7 @@ jobs:
         run: uv sync
 
       - name: Build Jupyter Book
-        run: jupyter-book build jovyan-doc
+        run: uvx jupyter-book build jovyan-doc
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
