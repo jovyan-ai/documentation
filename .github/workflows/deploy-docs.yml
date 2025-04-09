@@ -39,7 +39,7 @@ jobs:
         run: pip install uv
 
       - name: Install project dependencies (including dev)
-        run: uv sync --locked --group dev # Assumes uv.lock and [project.optional-dependencies.dev] in pyproject.toml
+        run: uv sync
 
       - name: Build Jupyter Book
         run: jupyter-book build jovyan-doc
