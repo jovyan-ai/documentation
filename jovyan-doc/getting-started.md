@@ -1,43 +1,47 @@
-# Getting started
+# Getting Started with Jovyan AI
 
-This guide helps you quickly setup and run Jovyan AI in your Jupyter.
+Welcome to the Jovyan AI setup guide. This document provides instructions for setting up and using Jovyan AI within your JupyterLab environment.
 
-## Install the jupyter extension
+## Installing the Jupyter Extension
 
-First, in the environment where you have Jupyter Lab, install the JupyterLab extension (require jupyterlab>=4.x)
+First, ensure you have JupyterLab version 4.x or later installed. Then, install the Jovyan AI extension in your JupyterLab environment using pip:
 
+```bash
+pip install --upgrade jovyanai-extension
 ```
-pip install jovyanai-extension
-```
 
-After installation, you can check if it is well installed with Jupyter Lab:
-```
+After installation, verify that the extension is installed correctly by running the following command in your terminal:
+```bash
 jupyter labextension list
 ```
 
-You should see the extension properly listed like this
+You should see `@jovyanai/labextension` listed among the installed extensions, similar to this:
 ![Check extension installed](assets/screenshot_check_extensions.png)
 
 
-## Get a user token
-Next, let's head to [Jovyan AI website](https://landing-page--jovyan-ai.europe-west4.hosted.app/) and get a usage token.
+## Obtain a User Token
+### Sign In to your account
+Next, obtain a user token from the [Jovyan AI website](https://jovyan-ai.com/).
+0.  If you don't have an account first, please click on "Get Started" and subscribe to the waitlist. We are working hard to expand the availability as soon as possible.
+1.  Visit the website and Log in to your account using the same email address where you received the invitation link.
+2.  You will receive a magic link to connect to your account page.
+4.  Navigate to your account page.
 
-1. Create an account if you don't have one
-2. Click on the email confirmation link send to your email address
-3. Login with your email 
-4. Click on the login link, you will be redirected to your account page.
-
-You will see a page like this
+### Generate a token
+On your account page, which should look similar to the image below, click "Generate new token" and securely store the generated token. You will only see the token once.
 ![Account page](/assets/screenshot_account_page.png)
 
-Click on "Generate new token" then save the token.
-
-## Authenticate the extension
-The Jupyter extension require a token to be able to access the backend services.  
-1. In Jupyter Lab menu, go to Settings -> Settings Editor. 
-2. In the "Search Settings" bar, type "Jovyan" then paste the token retrieved previously in the Authentication Token Field.
+## Authenticate the Extension
+The Jovyan AI extension requires the user token to communicate with backend services. To authenticate:
+1.  In the JupyterLab menu bar, navigate to Settings -> Settings Editor.
+2.  In the search bar within the Settings Editor, type "jovyan".
+3.  Paste the user token you obtained earlier into the "Authentication Token" field.
 ![Extension Setting](/assets/screenshot_settings.png)
 
-Now you are ready to use Jovyan AI. Let's spin up a new Notebook start coding!  
-For a guided tour of the functionality check Tutorials section.
+
+You are now ready to use Jovyan AI. Open a new notebook and begin exploring its features. For a detailed overview of the functionalities, please check the Features section.
+
+
+## Get help
+If you need any assistance, please drop into our Discord server https://discord.gg/55hAPE6P and give us a ping.
 
