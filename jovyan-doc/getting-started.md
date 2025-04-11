@@ -19,15 +19,16 @@ You should see `@jovyanai/labextension` listed among the installed extensions, s
 ![Check extension installed](assets/screenshot_check_extensions.png)
 
 
-## Obtain a User Token
+## Obtain an User Token
 ### Create an account
 If you don't have an account at [Jovyan AI website](https://jovyan-ai.com/), please click on "Get Started" and join the waitlist. We are working hard to expand the availability as soon as possible.
 
-### Sign In to your account
-Next, obtain a user token from the [Jovyan AI website](https://jovyan-ai.com/account). You will get redirected automatically from your invitation email or you can sign in from the Homepage.
+### Sign in to your account
+Next, signin to your account at the [Jovyan AI website](https://jovyan-ai.com/account).  
+You will get redirected automatically from your invitation email or you can sign in from the Homepage.
 
 ### Generate a token
-On your account page, which should look similar to the image below, click "Generate new token" and securely store the generated token. You will only see the token once.
+On your Account page, which should look similar to the image below, click "Generate new token" and securely store the generated token. You will only see the token once.
 ![Account page](/assets/screenshot_account_page.png)
 
 ## Authenticate the Extension
