@@ -43,5 +43,5 @@ You are now ready to use Jovyan AI. Open a new notebook and begin exploring its 
 
 
 ## Get help
-If you need any assistance, please drop into our Discord server https://discord.gg/55hAPE6P and give us a ping.
+If you need any assistance, please drop into our Discord server https://discord.gg/Au3sB5KftU and give us a ping.
 
