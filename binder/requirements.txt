@@ -1,2 +1,6 @@
 jupyterlab>=4.0.0
-jovyanai-extension 
+jovyanai-extension
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0 
