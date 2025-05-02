@@ -9,6 +9,6 @@ mkdir -p ~/.jupyter/lab/user-settings/@jovyanai/labextension/
 # Create the settings file with a public demo token
 cat << EOF > ~/.jupyter/lab/user-settings/@jovyanai/labextension/plugin.jupyterlab-settings
 {
-    "authToken": "demo_tk_jovyan_binder_setup"
+    "JOVYAN_AI_TOKEN": "demo_tk_jovyan_binder_setup"
 }
 EOF 
