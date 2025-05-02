@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Enable the JupyterLab extension
+jupyter labextension enable @jovyanai/labextension
+
+# Create the JupyterLab settings directory if it doesn't exist
+mkdir -p ~/.jupyter/lab/user-settings/@jovyanai/labextension/
+
+# Create the settings file with a public demo token
+cat << EOF > ~/.jupyter/lab/user-settings/@jovyanai/labextension/plugin.jupyterlab-settings
+{
+    "authToken": "demo_tk_jovyan_binder_setup"
+}
+EOF 
