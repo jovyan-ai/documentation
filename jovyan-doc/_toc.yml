@@ -4,7 +4,12 @@
 format: jb-book
 root: intro
 chapters:
-- file: getting-started
+- file: installation/getting-started
+  sections:
+  - file: installation/local
+  - file: installation/colab
+- file: installation/login
 - file: features/intro
   sections:
   - file: features/cell-assistant
+  - file: features/chat-assistant
