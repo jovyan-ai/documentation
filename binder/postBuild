@@ -9,7 +9,7 @@ mkdir -p ~/.jupyter/lab/user-settings/@jovyanai/labextension/
 # Create the settings file with a public demo token
 cat << EOF > ~/.jupyter/lab/user-settings/@jovyanai/labextension/plugin.jupyterlab-settings
 {
-    "JOVYAN_AI_TOKEN": "demo_tk_jovyan_binder_setup"
+    "JOVYAN_AI_TOKEN": "jovyan-ai-98d84ec43836852ee9e2fa7677d0f3b57bd649e4199e423c6f7108c62cc9d8f9"
 }
 EOF
 
@@ -19,6 +19,8 @@ pip install pandas numpy matplotlib seaborn
 # Copy the starter notebook to the home directory
 cp binder/starter-notebook.ipynb ${HOME}/starter-notebook.ipynb
 cp binder/sample_data ${HOME}/sample_data
+
+WORKSPACE_DIR=${HOME}
 
 # Set up JupyterLab workspace
 mkdir -p ${HOME}/.jupyter/lab/workspaces
