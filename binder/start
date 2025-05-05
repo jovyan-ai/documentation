@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Auth token
+export JOVYAN_AI_TOKEN="jovyan-ai-98d84ec43836852ee9e2fa7677d0f3b57bd649e4199e423c6f7108c62cc9d8f9"
