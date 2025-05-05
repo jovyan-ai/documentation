@@ -18,6 +18,7 @@ pip install pandas numpy matplotlib seaborn
 
 # Copy the starter notebook to the home directory
 cp binder/starter-notebook.ipynb ${HOME}/starter-notebook.ipynb
+cp binder/sample_data ${HOME}/sample_data
 
 # Set up JupyterLab workspace
 mkdir -p ${HOME}/.jupyter/lab/workspaces
