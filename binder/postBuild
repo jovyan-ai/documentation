@@ -1,0 +1,44 @@
+#!/bin/bash
+
+# Enable the JupyterLab extension
+jupyter labextension enable @jovyanai/labextension
+
+# Create the JupyterLab settings directory if it doesn't exist
+mkdir -p ~/.jupyter/lab/user-settings/@jovyanai/labextension/
+
+# Create the settings file with a public demo token
+cat << EOF > ~/.jupyter/lab/user-settings/@jovyanai/labextension/plugin.jupyterlab-settings
+{
+    "JOVYAN_AI_TOKEN": "demo_tk_jovyan_binder_setup"
+}
+EOF
+
+# Install additional Python packages that might be needed for the demo
+pip install pandas numpy matplotlib seaborn
+
+# Copy the starter notebook to the home directory
+cp binder/starter-notebook.ipynb ${HOME}/starter-notebook.ipynb
+cp binder/sample_data ${HOME}/sample_data
+
+# Set up JupyterLab workspace
+mkdir -p ${HOME}/.jupyter/lab/workspaces
+cat << EOF > ${HOME}/.jupyter/lab/workspaces/default-workspace.json
+{
+  "data": {
+    "layout-restorer:data": {
+      "main": {
+        "dock": {
+          "type": "tab-area",
+          "currentIndex": 0,
+          "widgets": ["notebook:starter-notebook.ipynb"]
+        }
+      },
+      "left": {
+        "collapsed": false,
+        "current": "jovyanai-panel",
+        "widgets": ["jovyanai-panel"]
+      }
+    }
+  }
+}
+EOF 
