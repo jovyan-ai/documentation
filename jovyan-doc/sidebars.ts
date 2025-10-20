@@ -20,13 +20,22 @@ const sidebars: SidebarsConfig = {
         'getting-started/installing',
         'getting-started/setting-up',
         'getting-started/your-first-task',
+        'getting-started/concepts',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Core Features',
+      items: [
+        'core-features/create-and-execute-tasks',
+        'core-features/configure-ai-agent',
+        'core-features/context-management',
       ],
     },
     {
       type: 'category',
       label: 'Using Jovyan AI',
       items: [
-        'getting-started/concepts',
         'using-jovyan/chatting-with-jovyan',
         'using-jovyan/using-modes',
         'using-jovyan/context-mentions',
