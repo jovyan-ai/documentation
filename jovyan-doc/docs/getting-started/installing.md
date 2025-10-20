@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Installing Jovyan AI
+# Installation
 
 Jovyan AI is an extension that can be installed in most popular IDEs.
 Install using one of these methods:

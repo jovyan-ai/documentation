@@ -18,7 +18,6 @@ const sidebars: SidebarsConfig = {
       label: 'Getting Started',
       items: [
         'getting-started/installing',
-        'getting-started/concepts',
         'getting-started/setting-up',
         'getting-started/your-first-task',
       ],
@@ -27,6 +26,7 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Using Jovyan AI',
       items: [
+        'getting-started/concepts',
         'using-jovyan/chatting-with-jovyan',
         'using-jovyan/using-modes',
         'using-jovyan/context-mentions',
