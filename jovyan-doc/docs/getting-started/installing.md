@@ -4,112 +4,40 @@ sidebar_position: 1
 
 # Installing Jovyan AI
 
-Jovyan AI is a VS Code extension that brings AI-powered data science assistance directly to your editor. Install using one of these methods:
+Jovyan AI is an extension that can be installed in most popular IDEs.
+Install using one of these methods:
 
-* **VS Code Marketplace (Recommended)** - fastest method for standard VS Code users
-* **Cursor Marketplace** - recommended way for Cursor users
-* **Open VSX Registry** - for VS Code-compatible editors like VSCodium or Windsurf
-* **Manually install the .vsix file** - direct installation from the GitHub Release
+* **Deep link inside IDE** - fastest method
+* **Marketplace search** - for non-listed IDEs
 
-## VS Code Marketplace
+## Install from IDE with deep link
+1. Click on the link corresponding to your IDE. This will open the Jovyan extension inside your favorite IDE.
+* [VS Code](vscode:extension/jovyan-ai.jovyan)
+* [VS Code Insiders](vscode-insiders:extension/jovyan-ai.jovyan)
+* [Cursor](cursor:extensions/jovyan-ai.jovyan)
+* [Windsurf](windsurf:extensions/jovyan-ai.jovyan)
+* [Positron](positron:extensions/jovyan-ai.jovyan)
 
-:::tip
-If you already have VS Code installed: Click here to install Jovyan AI
-:::
+![Jovyan AI Installation Demo](../../static/gifs/install-jovyan.gif)
 
-alternatively, you can:
+2. Simply click on "Install" and you are set!
+After installation, find the Jovyan AI icon in the Side Bar or press `Ctrl+Shift+A` (Windows/linux) or `Cmd+Shift+A` to open the Jovyan AI panel.
 
-1. Open VS Code
+
+## Install from Marketplace
+Alternatively, for other IDEs that are forks of Code OSS, you can:
+
+1. Open your IDE
 2. Access Extensions: Click the Extensions icon in the Side Bar or press `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (macOS)
-3. Search for "Jovyan AI"
-4. Select "Jovyan AI" by Jovyan AI and click **Install**
-5. Reload VS Code if prompted
+3. Search for "Jovyan"
+4. Select "Jovyan AI" by jovyan-ai and click **Install**
+5. Reload the extensions if prompted
 
-After installation, find the Jovyan AI icon () in the Side Bar to open the Jovyan AI panel.
+> **Pro Tip:**  
+> By default, Jovyan AI will appear in the **left side bar** of your IDE once installed.  
+> If you prefer, you can **click and drag the Jovyan AI icon** to move it to the right side bar or dock it anywhere in your IDE—customize your workspace to fit your workflow!
+>
+> ![Move Jovyan AI to right sidebar](../../static/gifs/switch-to-right-sidebar.gif)
 
-## Cursor Marketplace
 
-:::tip
-If you already have Cursor installed: Click here to install Jovyan AI
-:::
-
-alternatively, you can:
-
-1. Open Cursor
-2. Access Extensions: Click the Extensions icon in the Side Bar or press `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (macOS)
-3. Search for "Jovyan AI"
-4. Select "Jovyan AI" by Jovyan AI and click **Install**
-5. Reload Cursor if prompted
-
-After installation, find the Jovyan AI icon () in the Side Bar to open the Jovyan AI panel.
-
-## Open VSX Registry
-
-Open VSX Registry is an open-source alternative to the VS Code Marketplace for VS Code-compatible editors that cannot access the official marketplace due to licensing restrictions.
-
-For VS Code-compatible editors like VSCodium, Gitpod, Eclipse Theia, and Windsurf, you can browse and install directly from the Jovyan AI page on Open VSX Registry.
-
-1. Open your editor
-2. Access the Extensions view (Side Bar icon or `Ctrl+Shift+X` / `Cmd+Shift+X`)
-3. Your editor should be pre-configured to use Open VSX Registry
-4. Search for "Jovyan AI"
-5. Select "Jovyan AI" and click **Install**
-6. Reload the editor if prompted
-
-:::note
-If your editor isn't automatically configured for Open VSX Registry, you may need to set it as your extension marketplace in settings. Consult your specific editor's documentation for instructions.
-:::
-
-## Manual Installation from VSIX
-
-If you prefer to download and install the VSIX file directly:
-
-1. **Download the VSIX file:**  
-   * Find official releases on the Jovyan AI GitHub Releases page  
-   * Download the `.vsix` file from the latest release
-2. **Install in VS Code:**  
-   * Open VS Code  
-   * Access Extensions view  
-   * Click the "..." menu in the Extensions view  
-   * Select "Install from VSIX..."  
-   * Browse to and select your downloaded `.vsix` file
-
-## Prerequisites
-
-Before installing Jovyan AI, ensure you have:
-
-* **VS Code** version 1.80.0 or higher
-* **Python** 3.8 or higher (for data science workflows)
-* **Jupyter** extension (recommended for notebook support)
-* An active Jovyan AI account
-
-## Troubleshooting
-
-**Extension Not Visible**
-
-* Restart VS Code
-* Verify Jovyan AI is listed and enabled in Extensions
-* Try disabling and re-enabling the extension in Extensions
-* Check Output panel for errors (View → Output, select "Jovyan AI")
-
-**Installation Problems**
-
-* Ensure stable internet connection
-* Verify VS Code version 1.80.0 or later
-* If VS Code Marketplace is inaccessible, try the Open VSX Registry method
-* Check Python installation and PATH configuration
-
-**Data Science Environment Issues**
-
-* Verify Python is properly installed and accessible
-* Install required data science packages: `pip install pandas numpy matplotlib seaborn jupyter`
-* Ensure Jupyter extension is installed for notebook support
-
-## Getting Support
-
-If you encounter issues not covered here:
-
-* Join our Discord community for real-time support
-* Submit issues on GitHub
-* Visit our Reddit community
-* Check our comprehensive FAQ
+**Next step:** Your extension is installed! Click "Next" to set up your account in less than a minute.
