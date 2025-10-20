@@ -1,6 +1,0 @@
-#!/bin/bash
-
-# Auth token
-source ${HOME}/.env
-
-exec "$@"
