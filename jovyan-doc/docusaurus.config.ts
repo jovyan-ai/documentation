@@ -99,18 +99,12 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'Jovyan AI',
+      title: 'Jovyan AI Documentation',
       logo: {
         alt: 'Jovyan AI Logo',
         src: 'img/android-chrome-512x512.png',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'docsSidebar',
-          position: 'left',
-          label: 'Documentation',
-        },
         {
           href: 'https://jovyan-ai.com',
           label: 'Website',
@@ -131,44 +125,23 @@ const config: Config = {
           items: [
             {
               label: 'Getting Started',
-              to: '/getting-started',
+              to: '/getting-started/installing',
             },
             {
-              label: 'Features',
-              to: '/features/overview',
+              label: 'Core Features',
+              to: '/core-features/create-and-execute-tasks',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Get Help',
           items: [
             {
               label: 'Discord',
               href: 'https://discord.gg/Au3sB5KftU',
             },
-            // {
-            //   label: 'Reddit',
-            //   href: '#',
-            // },
-            // {
-            //   label: 'Twitter',
-            //   href: '#',
-            // },
-          ],
-        },
-        {
-          title: 'Company',
-          items: [
             {
-              label: 'Website',
-              href: 'https://jovyan-ai.com',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/jovyan-ai/documentation',
-            },
-            {
-              label: 'Contact',
+              label: 'Email',
               href: 'mailto:contact@jovyan-ai.com',
             },
           ],
