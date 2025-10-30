@@ -14,9 +14,9 @@ Install using one of these methods:
 1. Click on the link corresponding to your IDE. This will open the Jovyan extension inside your favorite IDE.
 * <a href="vscode:extension/jovyan-ai.jovyan">VS Code</a>
 * <a href="vscode-insiders:extension/jovyan-ai.jovyan">VS Code Insiders</a>
-* <a href="cursor:extensions/jovyan-ai.jovyan">Cursor</a>
-* <a href="windsurf:extensions/jovyan-ai.jovyan">Windsurf</a>
-* <a href="positron:extensions/jovyan-ai.jovyan">Positron</a>
+* <a href="cursor:extension/jovyan-ai.jovyan">Cursor</a>
+* <a href="windsurf:extension/jovyan-ai.jovyan">Windsurf</a>
+* <a href="positron:extension/jovyan-ai.jovyan">Positron</a>
 
 ![Jovyan AI Installation Demo](../../static/gifs/install-jovyan.gif)
 
