@@ -3,110 +3,122 @@
  * Inspired by jovyan-ai.com design
  */
 
-/* Color palette matching Jovyan AI website */
+/* Color palette matching Jovyan AI landing page */
 :root {
-  /* Primary brand colors - Orange/Coral for CTAs */
-  --ifm-color-primary: #FF6B35;
-  --ifm-color-primary-dark: #FF5720;
-  --ifm-color-primary-darker: #FF4C15;
-  --ifm-color-primary-darkest: #E63900;
-  --ifm-color-primary-light: #FF7F4A;
-  --ifm-color-primary-lighter: #FF935F;
-  --ifm-color-primary-lightest: #FFA774;
-  
-  /* Secondary colors - Blue/Purple */
-  --ifm-color-secondary: #6366F1;
-  --ifm-color-secondary-dark: #4F46E5;
-  --ifm-color-secondary-light: #818CF8;
-  
+  /* Primary brand colors - Coral for CTAs (matching landing page #fe654e) */
+  --ifm-color-primary: #fe654e;
+  --ifm-color-primary-dark: #e85a46;
+  --ifm-color-primary-darker: #d95040;
+  --ifm-color-primary-darkest: #c74638;
+  --ifm-color-primary-light: #FF8676;
+  --ifm-color-primary-lighter: #FF9A8A;
+  --ifm-color-primary-lightest: #FFAEA0;
+
+  /* Brand colors - Blue/Purple (matching landing page) */
+  --brand-blue: #4A90F0;
+  --brand-purple: #9C6BF0;
+  --ifm-color-secondary: #4A90F0;
+  --ifm-color-secondary-dark: #3A80E0;
+  --ifm-color-secondary-light: #9C6BF0;
+
   /* Background colors - Light mode */
   --ifm-background-color: #FFFFFF;
   --ifm-background-surface-color: #F8F9FA;
-  
+
   /* Text colors - Light mode */
   --ifm-font-color-base: #1F2937;
   --ifm-font-color-secondary: #6B7280;
-  
-  /* Typography */
-  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+  /* Typography - Inter + JetBrains Mono */
+  --ifm-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', 'Fira Code', monospace;
   --ifm-heading-font-family: var(--ifm-font-family-base);
   --ifm-font-size-base: 16px;
   --ifm-line-height-base: 1.7;
-  
+
   /* Code */
   --ifm-code-font-size: 0.9em;
   --ifm-code-background: #F3F4F6;
   --ifm-code-color: #DB2777;
-  
+
   /* Spacing */
   --ifm-spacing-horizontal: 1.5rem;
   --ifm-spacing-vertical: 1.5rem;
-  
+
   /* Navbar */
   --ifm-navbar-height: 4rem;
   --ifm-navbar-background-color: #FFFFFF;
   --ifm-navbar-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  
+
   /* Footer */
   --ifm-footer-background-color: #111827;
   --ifm-footer-color: #D1D5DB;
   --ifm-footer-link-color: #F3F4F6;
-  
+
   /* Highlighted code */
-  --docusaurus-highlighted-code-line-bg: rgba(79, 70, 229, 0.1);
-  
-  /* Radius */
-  --ifm-global-radius: 0.5rem;
+  --docusaurus-highlighted-code-line-bg: rgba(74, 144, 240, 0.1);
+
+  /* Radius - matching landing page 0.75rem */
+  --ifm-global-radius: 0.75rem;
   --ifm-button-border-radius: 0.5rem;
-  
+
+  /* Glass effects */
+  --glass-bg: rgba(255, 255, 255, 0.03);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-border-hover: rgba(255, 255, 255, 0.3);
+
+  /* Shadows */
+  --shadow-glow: 0 0 20px rgba(59, 130, 246, 0.15);
+  --shadow-neon: 0 0 10px rgba(59, 130, 246, 0.5);
+  --shadow-action: 0 10px 32px rgba(255, 101, 78, 0.18);
+
   /* Transitions */
   --ifm-transition-fast: 200ms;
   --ifm-transition-slow: 400ms;
 }
 
-/* Dark mode colors - matching Jovyan AI website */
+/* Dark mode colors - matching Jovyan AI landing page exactly */
 [data-theme='dark'] {
-  /* Keep orange for CTAs in dark mode */
-  --ifm-color-primary: #FF6B35;
-  --ifm-color-primary-dark: #FF5720;
-  --ifm-color-primary-darker: #FF4C15;
-  --ifm-color-primary-darkest: #E63900;
-  --ifm-color-primary-light: #FF7F4A;
-  --ifm-color-primary-lighter: #FF935F;
-  --ifm-color-primary-lightest: #FFA774;
-  
-  /* Dark navy background like Jovyan AI website */
-  --ifm-background-color: #0A0F1E;
-  --ifm-background-surface-color: #101827;
-  
-  /* Text colors for dark theme */
-  --ifm-font-color-base: #E5E7EB;
+  /* Coral for CTAs (matching landing page #fe654e) */
+  --ifm-color-primary: #fe654e;
+  --ifm-color-primary-dark: #e85a46;
+  --ifm-color-primary-darker: #d95040;
+  --ifm-color-primary-darkest: #c74638;
+  --ifm-color-primary-light: #FF8676;
+  --ifm-color-primary-lighter: #FF9A8A;
+  --ifm-color-primary-lightest: #FFAEA0;
+
+  /* Canvas background - matching landing page exactly */
+  --ifm-background-color: #030712;
+  --ifm-background-surface-color: #111827;
+
+  /* Text colors - matching landing page */
+  --ifm-font-color-base: #F9FAFB;
   --ifm-font-color-secondary: #9CA3AF;
-  
+
   /* Code styling */
   --ifm-code-background: #1F2937;
   --ifm-code-color: #F472B6;
-  
-  /* Navigation */
-  --ifm-navbar-background-color: rgba(10, 15, 30, 0.95);
-  --ifm-navbar-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
-  
+
+  /* Navigation - glass effect */
+  --ifm-navbar-background-color: rgba(17, 24, 39, 0.9);
+  --ifm-navbar-shadow: none;
+
   /* Footer */
-  --ifm-footer-background-color: #050913;
-  
+  --ifm-footer-background-color: #111827;
+
   /* Highlighted code */
-  --docusaurus-highlighted-code-line-bg: rgba(99, 102, 241, 0.1);
-  
-  /* Border colors */
-  --ifm-toc-border-color: #1F2937;
-  --ifm-color-emphasis-300: #374151;
+  --docusaurus-highlighted-code-line-bg: rgba(74, 144, 240, 0.1);
+
+  /* Border colors - matching landing page glass effect */
+  --ifm-toc-border-color: rgba(255, 255, 255, 0.08);
+  --ifm-color-emphasis-300: rgba(255, 255, 255, 0.1);
 }
 
-/* Hero section - matching Jovyan AI website */
+/* Hero section - matching Jovyan AI landing page */
 .hero {
-  background: #0A0F1E;
-  color: white;
+  background: #030712;
+  color: #F9FAFB;
   padding: 5rem 0 6rem;
   position: relative;
   overflow: hidden;
@@ -119,7 +131,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(ellipse at top, rgba(99, 102, 241, 0.1) 0%, transparent 60%);
+  background: radial-gradient(ellipse at top, rgba(74, 144, 240, 0.1) 0%, transparent 60%);
   pointer-events: none;
 }
 
@@ -127,7 +139,7 @@
   font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
-  background: linear-gradient(135deg, #818CF8 0%, #C084FC 50%, #F472B6 100%);
+  background: linear-gradient(to right, #4A90F0, #9C6BF0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -136,23 +148,25 @@
 
 .hero__subtitle {
   font-size: 1.25rem;
-  color: #D1D5DB;
+  color: #9CA3AF;
   font-weight: 400;
   max-width: 800px;
   margin: 0 auto 2.5rem;
   line-height: 1.6;
 }
 
-/* Enhanced navbar - matching Jovyan AI style */
+/* Enhanced navbar - glass effect matching Jovyan AI landing page */
 .navbar {
-  border-bottom: 1px solid var(--ifm-toc-border-color);
+  border-bottom: 1px solid var(--glass-border);
   backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   background-color: var(--ifm-navbar-background-color);
 }
 
 [data-theme='dark'] .navbar {
-  background-color: rgba(10, 15, 30, 0.8);
-  border-bottom: 1px solid rgba(31, 41, 55, 0.5);
+  background-color: rgba(17, 24, 39, 0.9);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: var(--shadow-glow);
 }
 
 .navbar__brand {
@@ -172,71 +186,74 @@
   color: var(--ifm-color-primary);
 }
 
-/* Sidebar improvements */
+/* Sidebar improvements - brand gradient */
 .menu__link {
   border-radius: var(--ifm-global-radius);
   transition: all var(--ifm-transition-fast);
 }
 
 .menu__link:hover {
-  background-color: var(--ifm-menu-color-background-hover);
+  background-color: rgba(74, 144, 240, 0.05);
 }
 
 .menu__link--active {
-  background-color: rgba(79, 70, 229, 0.1);
-  border-left: 3px solid var(--ifm-color-primary);
+  background: linear-gradient(to right, rgba(74, 144, 240, 0.1), rgba(156, 107, 240, 0.1));
+  border-left: 3px solid var(--brand-blue);
   padding-left: calc(var(--ifm-menu-link-padding-horizontal) - 3px);
   font-weight: 600;
 }
 
-/* Enhanced buttons - Orange CTA style from Jovyan AI */
+/* Enhanced buttons - Coral CTA style from Jovyan AI landing page */
 .button {
   border-radius: 0.5rem;
   font-weight: 600;
   transition: all 0.2s ease;
   font-size: 1rem;
   padding: 0.75rem 1.5rem;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12);
 }
 
 .button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px -5px rgba(255, 107, 53, 0.3);
 }
 
 .button--primary {
-  background: #FF6B35;
-  border: none;
+  background: #fe654e;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   color: white;
+  box-shadow: var(--shadow-action);
 }
 
 .button--primary:hover {
-  background: #FF5720;
+  background: #FF8676;
   color: white;
+  box-shadow: 0 14px 36px rgba(255, 101, 78, 0.25);
 }
 
 .button--secondary {
-  background: #FF6B35;
-  border: none;
+  background: #fe654e;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   color: white;
+  box-shadow: var(--shadow-action);
 }
 
 .button--secondary:hover {
-  background: #FF5720;
+  background: #FF8676;
   color: white;
 }
 
 .button--outline {
   background: transparent;
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   color: white;
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .button--outline:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.6);
   color: white;
-  box-shadow: 0 10px 20px -5px rgba(255, 255, 255, 0.1);
 }
 
 /* Code blocks */
@@ -280,17 +297,25 @@ table tbody tr:hover {
   background-color: var(--ifm-table-stripe-background);
 }
 
-/* Cards */
+/* Cards - Glass effect matching landing page */
 .card {
   border-radius: var(--ifm-global-radius);
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  transition: all var(--ifm-transition-fast);
-  border: 1px solid var(--ifm-toc-border-color);
+  border: 1px solid var(--glass-border);
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-glow);
 }
 
 .card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border-color: var(--glass-border-hover);
+  box-shadow: var(--shadow-neon);
+}
+
+[data-theme='dark'] .card {
+  background: rgba(255, 255, 255, 0.03);
 }
 
 /* Alerts/Admonitions */
@@ -308,16 +333,31 @@ table tbody tr:hover {
   border-left-color: var(--ifm-color-primary);
 }
 
-/* Footer */
+/* Footer - matching landing page style */
 .footer {
-  padding: 1.5rem 0;
+  padding: 2rem 0;
+  background: transparent;
+}
+
+[data-theme='dark'] .footer {
+  --ifm-footer-background-color: transparent;
+}
+
+.footer .container {
+  border-radius: 1rem;
+  border: 1px solid var(--glass-border);
+  background: rgba(17, 24, 39, 0.9);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 2rem;
+  box-shadow: var(--shadow-glow);
 }
 
 .footer__title {
   font-weight: 700;
   font-size: 1rem;
   margin-bottom: 1rem;
-  color: white;
+  color: #F9FAFB;
 }
 
 .footer__item {
@@ -330,7 +370,7 @@ table tbody tr:hover {
 }
 
 .footer__link-item:hover {
-  color: var(--ifm-color-primary-lighter);
+  color: var(--ifm-color-primary-light);
   text-decoration: none;
 }
 
@@ -338,6 +378,7 @@ table tbody tr:hover {
   margin-top: 2rem;
   opacity: 0.8;
   font-size: 0.9rem;
+  color: #9CA3AF;
 }
 
 /* Pagination */
@@ -388,7 +429,7 @@ html {
 }
 
 [data-theme='dark'] .markdown h1 {
-  background: linear-gradient(135deg, #818CF8 0%, #C084FC 100%);
+  background: linear-gradient(to right, #4A90F0, #9C6BF0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -404,7 +445,8 @@ html {
 }
 
 [data-theme='dark'] .markdown h2 {
-  color: #E5E7EB;
+  color: #F9FAFB;
+  border-bottom-color: rgba(255, 255, 255, 0.08);
 }
 
 .markdown h3 {
