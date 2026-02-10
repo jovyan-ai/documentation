@@ -14,22 +14,27 @@ Modes are specialized personas that tailor the assistant's behavior to your task
 
 **Code Mode**
 - Full access to read, edit, browser, command, and MCP tools
-- For: Writing scripts, implementing algorithms, building data pipelines, refactoring code
+- For: All data science tasks from data collection and cleaning to modeling and deployment
 - Example: *"Build a data pipeline for processing sales data"*
 
-**Ask Mode**
-- Read-only access (cannot edit files or run commands)
-- For: Answering questions, explaining concepts, learning statistics without code changes
-- Example: *"What's the best algorithm for this classification problem?"*
+**Data Cleaning Mode**
+- Full access to read, edit, browser, command, and MCP tools
+- For: Specialized data quality analysis, cleaning datasets, handling missing values, normalizing formats
+- Example: *"Clean this dataset and handle the missing values"*
 
 **Architect Mode**
 - Read and markdown editing only
-- For: Designing ML systems, planning architecture, creating implementation plans
+- For: Planning and designing solutions before implementation
 - Example: *"Design a machine learning pipeline for customer churn prediction"*
+
+**Ask Mode**
+- Read-only access (cannot edit files or run commands)
+- For: Answering questions, explaining concepts, learning without making changes
+- Example: *"What's the best algorithm for this classification problem?"*
 
 **Debug Mode**
 - Full access to all tools
-- For: Fixing bugs, diagnosing errors, troubleshooting performance issues
+- For: Systematic debugging, diagnosing errors, troubleshooting issues
 - Example: *"This function raises a ValueError. Help me fix it."*
 
 **Orchestrator Mode**
@@ -47,8 +52,9 @@ Click the mode selector to the left of the chat input and choose from the list.
 **2. Slash command:**
 Type one of these in the chat input:
 - `/code` - Switch to Code mode
-- `/ask` - Switch to Ask mode
+- `/data-cleaning` - Switch to Data Cleaning mode
 - `/architect` - Switch to Architect mode
+- `/ask` - Switch to Ask mode
 - `/debug` - Switch to Debug mode
 - `/orchestrator` - Switch to Orchestrator mode
 
@@ -72,11 +78,11 @@ Choose the language model that powers your AI agent. Jovyan AI automatically sel
 
 ### Recommended Models
 
-| Model                | Best For                          | Task Examples                             |
-|----------------------|-----------------------------------|-------------------------------------------|
-| **GPT-5**            | Complex analysis, thorough design | Design ML pipelines, complex debugging    |
-| **Claude Sonnet 4.5**| Code generation, refactoring      | Build ML pipelines, refactor functions    |
-| **Gemini 2.5 Pro**   | Data analysis, data visualization | Data exploration, error analysis          |
+| Model                  | Best For                          | Task Examples                             |
+|------------------------|-----------------------------------|-------------------------------------------|
+| **Claude 3.5 Sonnet**  | Code generation, refactoring      | Build ML pipelines, refactor functions    |
+| **GPT-4o**             | Complex analysis, thorough design | Design ML pipelines, complex debugging    |
+| **Gemini 2.0 Pro**     | Data analysis, data visualization | Data exploration, error analysis          |
 
 ### API Providers
 

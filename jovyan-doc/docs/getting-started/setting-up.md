@@ -2,27 +2,157 @@
 sidebar_position: 3
 ---
 
-# Account setup
+# Account Setup
 
-Once you've installed Jovyan AI, setting up your account takes less than a minute and gives you access to free credits to get started.
+Jovyan AI offers multiple ways to access AI models. Choose the option that works best for you.
 
-To claim your bonus credits:
+## Option 1: Jovyan AI Account (Recommended)
 
-1. **Sign up:** Complete your registration to receive $10 in bonus credit.
-2. **First top-up:** Add funds to your account and get an additional $10 in bonus credits.
-3. **Start coding:** Enjoy a total of $20 in free credits.
+The easiest way to get started. Sign up for a Jovyan AI account to access all major models without managing API keys.
 
-## Registration Process
+### Benefits
 
-Jovyan AI offers a quick and easy registration process so you can start using state-of-the-art coding models right away.
+- **No API key setup required** - Start immediately
+- **Access to all major models** - GPT-4, Claude, Gemini, and more
+- **$20 in free credits** - $10 on signup + $10 on first top-up
+- **Pay-as-you-go pricing** - No subscriptions, pay only for what you use
 
-1. In the extension, click "Try Jovyan AI for Free."
-2. Sign in using your Google or GitHub account.
-3. jovyan-ai.com will ask you to open your IDE.
-4. Allow the prompt to open your IDE, and also permit your IDE to open the authorization URL.
+### Registration Process
+
+1. In the extension, click **"Try Jovyan AI for Free"**
+2. Sign in using your Google or GitHub account
+3. jovyan-ai.com will ask you to open your IDE
+4. Allow the prompt to open your IDE
 
 ![Sign in to Jovyan AI account and get free credits](../../static/gifs/sign_in.gif)
 
-## Next Steps
-That’s it, you’re ready to go! Click `Next`and start working with the best AI assistant for data science and machine learning.
+That's it! You're ready to start using Jovyan AI with your free credits.
 
+---
+
+## Option 2: Use Your Own API Keys
+
+If you have existing API keys from AI providers, you can use them directly with Jovyan AI.
+
+### Supported Providers
+
+| Provider | Models Available |
+|----------|-----------------|
+| **Anthropic** | Claude 3.5 Sonnet, Claude 3 Opus, Claude 3 Haiku |
+| **OpenAI** | GPT-4o, GPT-4, GPT-3.5 Turbo, o1 |
+| **Google** | Gemini 2.0, Gemini Pro |
+| **AWS Bedrock** | Claude, Llama models via AWS |
+| **Google Vertex AI** | Gemini, Claude via Google Cloud |
+| **Mistral** | Mistral Large, Codestral |
+| **DeepSeek** | DeepSeek Coder, DeepSeek Chat |
+| **Groq** | Fast inference for various models |
+| **xAI** | Grok models |
+| **OpenRouter** | Access 100+ models through one API |
+
+### Setup Steps
+
+1. **Get an API key** from your chosen provider:
+   - [Anthropic Console](https://console.anthropic.com/)
+   - [OpenAI Platform](https://platform.openai.com/)
+   - [Google AI Studio](https://aistudio.google.com/)
+   - [OpenRouter](https://openrouter.ai/)
+
+2. **Open Jovyan AI Settings**:
+   - Click the **Settings** button in the Jovyan AI sidebar
+   - Or use keyboard shortcut: `Cmd/Ctrl + ,`
+
+3. **Configure your provider**:
+   - Select your provider from the dropdown
+   - Enter your API key
+   - Choose your preferred model
+
+4. **Save and start using**:
+   - Your API key is stored securely in VS Code's secret storage
+   - Select this provider as your active configuration
+
+### Example: Setting Up Anthropic
+
+1. Go to [console.anthropic.com](https://console.anthropic.com/)
+2. Create an account and generate an API key
+3. In Jovyan AI settings, select **Anthropic** as the provider
+4. Paste your API key
+5. Select a model (e.g., Claude 3.5 Sonnet)
+
+---
+
+## Option 3: ChatGPT Account Login
+
+If you have a ChatGPT Plus or Pro subscription, you can use your existing account.
+
+### How It Works
+
+This option uses OAuth to authenticate with your OpenAI/ChatGPT account, allowing you to use your subscription's model access.
+
+### Setup Steps
+
+1. **Open Jovyan AI Settings**
+2. **Select "OpenAI ChatGPT" as the provider**
+3. **Click "Sign in with ChatGPT"**
+4. **Authorize in your browser**:
+   - A browser window will open
+   - Log in to your ChatGPT account
+   - Authorize Jovyan AI to access your account
+5. **Return to VS Code** - You're now connected!
+
+### Requirements
+
+- An active ChatGPT Plus or Pro subscription
+
+---
+
+## Option 4: Local Models (Ollama/LM Studio)
+
+Run AI models locally on your machine for privacy and offline use.
+
+### Using Ollama
+
+1. **Install Ollama**: Download from [ollama.ai](https://ollama.ai/)
+2. **Pull a model**: `ollama pull codellama` or `ollama pull mistral`
+3. **In Jovyan AI settings**:
+   - Select **Ollama** as provider
+   - Set base URL (default: `http://localhost:11434`)
+   - Select your installed model
+
+### Using LM Studio
+
+1. **Install LM Studio**: Download from [lmstudio.ai](https://lmstudio.ai/)
+2. **Download a model** through the LM Studio interface
+3. **Start the local server** in LM Studio
+4. **In Jovyan AI settings**:
+   - Select **LM Studio** as provider
+   - Set base URL (default: `http://localhost:1234`)
+   - Select your model
+
+---
+
+## Switching Between Providers
+
+You can configure multiple providers and switch between them:
+
+1. **Create API configurations** for each provider you want to use
+2. **Pin your favorites** for quick access
+3. **Switch providers** using the dropdown in the chat interface
+
+This is useful for:
+- Using different models for different tasks
+- Falling back to another provider if one is unavailable
+- Comparing model outputs
+
+---
+
+## Security Notes
+
+- **API keys are stored securely** in VS Code's secret storage
+- **Keys never leave your machine** except when making API calls
+- **Use environment variables** for team settings to avoid committing keys
+
+---
+
+## Next Steps
+
+Once you've set up your account, you're ready to start using Jovyan AI! Continue to [Your First Task](./your-first-task.md) to learn the basics.

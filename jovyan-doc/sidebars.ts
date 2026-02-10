@@ -30,24 +30,18 @@ const sidebars: SidebarsConfig = {
         'core-features/create-and-execute-tasks',
         'core-features/configure-ai-agent',
         'core-features/context-management',
+        'core-features/mcp',
       ],
     },
-    // {
-    //   type: 'category',
-    //   label: 'Advanced Usage',
-    //   items: [
-    //     'advanced/custom-workflows',
-    //     'advanced/team-collaboration',
-    //   ],
-    // },
-    // {
-    //   type: 'category',
-    //   label: 'Customization',
-    //   items: [
-    //     'customization/settings',
-    //     'customization/custom-rules',
-    //   ],
-    // },
+    {
+      type: 'category',
+      label: 'Customization',
+      items: [
+        'customization/settings',
+        'customization/custom-modes',
+        'customization/rules',
+      ],
+    },
     'faq',
   ],
 };
