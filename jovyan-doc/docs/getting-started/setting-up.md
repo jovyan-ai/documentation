@@ -30,7 +30,34 @@ That's it! You're ready to start using Jovyan AI with your free credits.
 
 ---
 
-## Option 2: Use Your Own API Keys
+## Option 2: ChatGPT Account Login
+
+If you have a ChatGPT Plus or Pro subscription, you can use your existing account.
+
+### How It Works
+
+This option uses OAuth to authenticate with your OpenAI/ChatGPT account, allowing you to use your subscription's model access.
+
+### Setup Steps
+
+1. **Open Jovyan AI Settings**
+2. **Select "OpenAI ChatGPT" as the provider**
+3. **Click "Sign in with ChatGPT"**
+4. **Authorize in your browser**:
+   - A browser window will open
+   - Log in to your ChatGPT account
+   - Authorize Jovyan AI to access your account
+5. **Return to VS Code** - You're now connected!
+
+![ChatGPT Login Demo](../../static/gifs/chatgpt_login.gif)
+
+### Requirements
+
+- An active ChatGPT Plus or Pro subscription
+
+---
+
+## Option 3: Use Your Own API Keys
 
 If you have existing API keys from AI providers, you can use them directly with Jovyan AI.
 
@@ -77,31 +104,6 @@ If you have existing API keys from AI providers, you can use them directly with 
 3. In Jovyan AI settings, select **Anthropic** as the provider
 4. Paste your API key
 5. Select a model (e.g., Claude 3.5 Sonnet)
-
----
-
-## Option 3: ChatGPT Account Login
-
-If you have a ChatGPT Plus or Pro subscription, you can use your existing account.
-
-### How It Works
-
-This option uses OAuth to authenticate with your OpenAI/ChatGPT account, allowing you to use your subscription's model access.
-
-### Setup Steps
-
-1. **Open Jovyan AI Settings**
-2. **Select "OpenAI ChatGPT" as the provider**
-3. **Click "Sign in with ChatGPT"**
-4. **Authorize in your browser**:
-   - A browser window will open
-   - Log in to your ChatGPT account
-   - Authorize Jovyan AI to access your account
-5. **Return to VS Code** - You're now connected!
-
-### Requirements
-
-- An active ChatGPT Plus or Pro subscription
 
 ---
 
