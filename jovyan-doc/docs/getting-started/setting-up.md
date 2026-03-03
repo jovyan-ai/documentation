@@ -13,9 +13,9 @@ The easiest way to get started. Sign up for a Jovyan AI account to access all ma
 ### Benefits
 
 - **No API key setup required** - Start immediately
-- **Access to all major models** - GPT-4, Claude, Gemini, and more
-- **$20 in free credits** - $10 on signup + $10 on first top-up
-- **Pay-as-you-go pricing** - No subscriptions, pay only for what you use
+- **Access to all major models** - GPT, Claude, Gemini, and more
+- **30-day free trial** - Full access to Pro+ plan, no credit card required
+- **Flexible subscription plans** - Starting at $20/month
 
 ### Registration Process
 
@@ -26,7 +26,7 @@ The easiest way to get started. Sign up for a Jovyan AI account to access all ma
 
 ![Sign in to Jovyan AI account and get free credits](../../static/gifs/sign_in.gif)
 
-That's it! You're ready to start using Jovyan AI with your free credits.
+That's it! You're ready to start using Jovyan AI with your free trial.
 
 ---
 

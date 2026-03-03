@@ -26,15 +26,30 @@ No, you need a Jovyan AI account to use the extension. You can sign up for free 
 
 ### Is there a free trial?
 
-Yes! The Pay-as-you-go plan includes up to $20 in free credits to test Jovyan AI.
+Yes! New users get a 30-day free trial of the Pro+ plan — no credit card required. You'll have full access to all hosted models during the trial.
 
-### Do you charge markup on tokens?
+### What are the subscription plans?
 
-No! With Jovyan AI, you pay the same token price as the LLM provider. We don't add any markup.
+Jovyan AI offers four plans:
+
+| Plan | Price | Details |
+|------|-------|---------|
+| **Free** | $0/month | Bring your own API keys (BYOK) |
+| **Pro** | $20/month | Standard usage, all hosted models |
+| **Pro+** | $50/month | 3x usage, all models + priority support |
+| **Business** | $100/month | 7x usage, all models + dedicated support |
 
 ### Can I use my own API keys?
 
-Yes! You can bring your own API keys from OpenAI, Anthropic, Azure, or other providers.
+Yes! The Free plan lets you use your own API keys from OpenAI, Anthropic, Azure, or other providers. Paid plans include access to all models through Jovyan AI.
+
+### What happens when I reach my weekly limit?
+
+Requests are paused until your weekly usage resets automatically. You can upgrade your plan anytime for more capacity.
+
+### Can I change my plan?
+
+Yes, you can upgrade, downgrade, or cancel anytime from your [account dashboard](https://jovyan-ai.com/account).
 
 ## Security & Privacy
 
