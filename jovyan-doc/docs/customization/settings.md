@@ -194,8 +194,8 @@ This imports settings from a previously exported JSON file.
 2. Try enabling PowerShell counter workaround on Windows
 3. Configure ZSH-specific settings if using Oh My Zsh
 
-## Next Steps
+## Related
 
-- Learn about [Custom Modes](./custom-modes.md)
-- Configure [Rules](./rules.md)
-- Review [FAQ](../faq.md)
+- [Custom Modes](./custom-modes) - Create specialized AI personas
+- [Rules & Workflows](./rules-workflows) - Define project guidelines
+- [FAQ](/reference/faq) - Frequently asked questions

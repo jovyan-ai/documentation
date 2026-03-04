@@ -147,12 +147,16 @@ const config: Config = {
           title: 'Documentation',
           items: [
             {
-              label: 'Getting Started',
-              to: '/getting-started/installing',
+              label: 'Quick Start',
+              to: '/quick-start/installing',
             },
             {
-              label: 'Core Features',
-              to: '/core-features/create-and-execute-tasks',
+              label: 'Features',
+              to: '/features/working-with-tasks',
+            },
+            {
+              label: 'Plans & Billing',
+              to: '/reference/plans-billing',
             },
           ],
         },

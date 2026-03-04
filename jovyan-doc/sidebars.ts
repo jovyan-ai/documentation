@@ -1,36 +1,28 @@
 import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
-/**
- * Creating a sidebar enables you to:
- - create an ordered group of docs
- - render a sidebar for each doc of that group
- - provide next/previous navigation
-
- The sidebars can be generated from the filesystem, or explicitly defined here.
-
- Create as many sidebars as you want.
- */
 const sidebars: SidebarsConfig = {
   docsSidebar: [
     'welcome',
     {
       type: 'category',
-      label: 'Getting Started',
+      label: 'Quick Start',
       items: [
-        'getting-started/installing',
-        'getting-started/setting-up',
-        'getting-started/your-first-task',
-        'getting-started/concepts',
+        'quick-start/installing',
+        'quick-start/create-account',
+        'quick-start/your-first-task',
       ],
     },
     {
       type: 'category',
-      label: 'Core Features',
+      label: 'Features',
       items: [
-        'core-features/create-and-execute-tasks',
-        'core-features/configure-ai-agent',
-        'core-features/context-management',
-        'core-features/mcp',
+        'features/working-with-tasks',
+        'features/notebooks',
+        'features/modes-ai-agent',
+        'features/context-mentions',
+        'features/code-actions',
+        'features/slash-commands',
+        'features/mcp',
       ],
     },
     {
@@ -39,10 +31,20 @@ const sidebars: SidebarsConfig = {
       items: [
         'customization/settings',
         'customization/custom-modes',
-        'customization/rules',
+        'customization/rules-workflows',
       ],
     },
-    'faq',
+    {
+      type: 'category',
+      label: 'Reference',
+      items: [
+        'reference/plans-billing',
+        'reference/keyboard-shortcuts',
+        'reference/concepts',
+        'reference/troubleshooting',
+        'reference/faq',
+      ],
+    },
   ],
 };
 

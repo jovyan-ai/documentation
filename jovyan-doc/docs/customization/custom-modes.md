@@ -239,8 +239,8 @@ Before sharing a custom mode:
 2. Check `customInstructions` for conflicts
 3. Test with simpler instructions first
 
-## Next Steps
+## Related
 
-- Configure [Rules](./rules.md) for code standards
-- Adjust [Settings](./settings.md)
-- Explore [MCP Integration](../core-features/mcp.md)
+- [Rules & Workflows](./rules-workflows) - Define project guidelines and workflows
+- [Settings](./settings) - Configure Jovyan AI
+- [MCP Integration](/features/mcp) - Extend with external tools
