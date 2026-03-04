@@ -34,12 +34,12 @@ Yes! New users get a 30-day free trial of the Pro+ plan — no credit card requi
 
 ### What are the subscription plans?
 
-| Plan | Price | Weekly Budget | Details |
-|------|-------|---------------|---------|
-| **Free** | $0/month | $0 | Bring your own API keys (BYOK) |
-| **Pro** | $20/month | $6 | All hosted models |
-| **Pro+** | $50/month | $18 | 3x usage, priority support |
-| **Business** | $100/month | $42 | 7x usage, dedicated support |
+| Plan | Price | Details |
+|------|-------|---------|
+| **Free** | $0/month | Bring your own API keys (BYOK) |
+| **Pro** | $20/month | All hosted models, 25% more usage than API |
+| **Pro+** | $50/month | 3× usage, priority support |
+| **Business** | $100/month | 7× usage, dedicated support |
 
 See [Plans & Billing](/reference/plans-billing) for full details.
 
@@ -47,9 +47,9 @@ See [Plans & Billing](/reference/plans-billing) for full details.
 
 Yes! The Free plan lets you use your own API keys from OpenAI, Anthropic, Google, or other providers. Paid plans also support BYOK alongside hosted models.
 
-### What happens when I reach my weekly limit?
+### What happens when I reach my usage limit?
 
-Requests are paused until your weekly usage resets automatically. You can upgrade your plan anytime for more capacity, or switch to your own API keys.
+Requests are paused until your usage resets. You can upgrade your plan anytime for more capacity, or switch to your own API keys.
 
 ### Can I change my plan?
 

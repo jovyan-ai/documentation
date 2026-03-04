@@ -11,10 +11,10 @@ Jovyan AI offers flexible subscription plans for individuals and teams. All paid
 | | **Free** | **Pro** | **Pro+** | **Business** |
 |---|---|---|---|---|
 | **Price** | $0/month | $20/month | $50/month | $100/month |
-| **Weekly usage budget** | $0 | $6 | $18 | $42 |
 | **Hosted models** | -- | All models | All models | All models |
 | **Bring your own keys** | Yes | Yes | Yes | Yes |
 | **ChatGPT login** | Yes | Yes | Yes | Yes |
+| **Usage** | -- | 25% more than API | 3× Pro | 7× Pro |
 | **Support** | Community | Standard | Priority | Dedicated |
 
 ### Free Plan
@@ -23,19 +23,19 @@ Use your own API keys from any supported provider (OpenAI, Anthropic, Google, et
 
 ### Pro Plan ($20/month)
 
-Access all hosted models through Jovyan AI with a $6 weekly usage budget. No API key setup needed — just sign in and start working.
+Access all hosted models through Jovyan AI with standard usage. No API key setup needed — just sign in and start working.
 
 ### Pro+ Plan ($50/month)
 
-3x the usage of Pro with a $18 weekly budget. Includes priority support.
+3× the usage of Pro. Includes priority support.
 
 ### Business Plan ($100/month)
 
-7x the usage of Pro with a $42 weekly budget. Includes dedicated support and team features.
+7× the usage of Pro. Includes dedicated support and team features.
 
 ## Free Trial
 
-New users get a **30-day free trial of Pro+** — no credit card required. During the trial you have full access to all hosted models with a $18 weekly budget.
+New users get a **30-day free trial of Pro+** — no credit card required. During the trial you have full access to all hosted models with Pro+ usage limits.
 
 After the trial ends, your account moves to the Free plan. You can subscribe to any paid plan at any time.
 
@@ -52,9 +52,9 @@ Paid plans include access to all of these models:
 
 New models are added regularly. Check the model selector in the extension for the latest list.
 
-## Weekly Usage Resets
+## Usage Limits
 
-Your usage budget resets automatically every week. If you reach your weekly limit, requests are paused until the next reset. You can upgrade your plan at any time for more capacity.
+Paid plans have usage limits that reset periodically. If you reach your limit, requests are paused until the next reset. You can upgrade your plan at any time for more capacity.
 
 ## Managing Your Subscription
 

@@ -49,7 +49,7 @@ Common issues and their solutions. If your problem isn't listed here, check the 
 ### Slow or no responses
 
 1. Check your internet connection
-2. Verify your plan has remaining weekly budget (see [Plans & Billing](/reference/plans-billing))
+2. Verify your plan has remaining usage (see [Plans & Billing](/reference/plans-billing))
 3. The model provider may be experiencing high load — try a different model
 4. For BYOK users, check your API key's rate limits and quotas
 
