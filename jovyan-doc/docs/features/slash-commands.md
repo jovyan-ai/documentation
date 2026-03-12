@@ -11,6 +11,7 @@ Slash commands are quick actions you type directly in the chat input. Type `/` t
 | Command | Aliases | What It Does |
 |---------|---------|-------------|
 | `/newtask` | | Start a new task with context carried over from the current conversation |
+| `/init` | | Run checks, clarify context if needed, and propose an initialization plan |
 | `/smol` | `/compact`, `/condense` | Summarize the current conversation to reduce context size |
 | `/newrule` | | Create a new rule file in `.jovyan/rules/` based on the current conversation |
 | `/reportbug` | | File a bug report with relevant context from your session |
@@ -18,6 +19,20 @@ Slash commands are quick actions you type directly in the chat input. Type `/` t
 ### /newtask
 
 Starts a new task while optionally carrying context forward. Useful when you've finished one part of a project and want to move on without losing key information.
+
+### /init
+
+Runs a structured project initialization workflow:
+
+1. Run checks first (project organization/docs, package manager, Python environment, Git, DVC).
+2. Ask clarification questions only if context is unclear (max 3: objective, usage, deliverable).
+3. Ask you to confirm which package manager and Python environment are defaults.
+4. Propose an initialization plan with findings and recommended actions.
+5. If Git or DVC is missing or not working, include setup help options.
+6. Execute approved steps in Code mode.
+7. Complete by asking a follow-up question with a few suggested next tasks (default: 3).
+
+`/init` stays approval-driven: it investigates first, then asks for permission before writes or commands.
 
 ### /smol (Condense Context)
 
