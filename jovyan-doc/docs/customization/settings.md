@@ -88,7 +88,7 @@ Most settings are configured through the Jovyan AI settings panel. Here are the 
 - **Model Selection**: Choose which model to use for each provider
 - **Model Parameters**: Adjust temperature and other model settings
 
-### Auto-Approval Settings
+### Auto-Approve Settings
 
 Control when Jovyan AI can act without explicit approval:
 
@@ -99,6 +99,15 @@ Control when Jovyan AI can act without explicit approval:
 - **MCP Tools**: Auto-approve Model Context Protocol tool usage
 - **Mode Switching**: Auto-approve switching between modes
 - **Subtasks**: Auto-approve subtask creation and completion
+
+#### Auto Review {#auto-review}
+
+The Auto-Approve tab also includes Auto Review settings:
+
+- **Enable Auto Review**: When enabled, an AI reviewer checks the agent's work against your original request before completing the task. If the review fails, the agent automatically iterates to fix the issues.
+- **Review API Configuration**: Select which API configuration to use for reviews. This lets you use a different (e.g., cheaper or faster) model for the review step. If not set, the current active configuration is used.
+
+See [Working with Tasks > Auto Review](/features/working-with-tasks#auto-review) for a detailed explanation of the feature.
 
 ### Context Management
 

@@ -87,6 +87,38 @@ When you edit a message and regenerate, any subsequent messages are deleted, cre
 When the AI agent determines that your request has been fulfilled, it will suggest completing the task.
 However, you are not required to accept this suggestion, you can start a new task to continue making changes or request further modifications to the current one.
 
+### Auto Review
+
+Auto Review adds an automatic quality check before task completion. When enabled, a separate AI reviewer evaluates the agent's work against your original request and provides a pass/fail assessment.
+
+**How it works:**
+
+1. The agent finishes its work and proposes completing the task
+2. An AI reviewer automatically analyzes the result against your original request
+3. The review streams in real-time, showing a detailed assessment
+4. **If the review passes** — you see the review feedback and can choose to **Start a new task** or **Continue** with modifications
+5. **If the review fails** — the feedback is sent back to the agent, which automatically iterates to fix the issues
+
+The review checks for:
+- **Requirement fulfillment** — Does the solution address all parts of your request?
+- **Data science best practices** — Proper preprocessing, no data leakage, correct train/test splits
+- **Machine learning quality** — Appropriate model selection, evaluation metrics, overfitting checks
+- **Code quality** — Reproducibility, naming, error handling
+- **Visualization** — Axis labels, titles, legends, appropriate chart types
+
+:::tip
+The review is written in your configured language. If you work in French, the review will be in French.
+:::
+
+**To enable Auto Review:**
+
+1. Open **Settings** in the Jovyan AI panel
+2. Go to the **Auto-Approve** tab
+3. Scroll to **Auto Review** and check **Enable Auto Review**
+4. Optionally select a different API configuration for the reviewer (useful to use a cheaper or faster model for reviews)
+
+See [Settings > Auto-Approve > Auto Review](/customization/settings#auto-review) for configuration details.
+
 ## Related
 
 * [Working with Notebooks](/features/notebooks) - Notebook-specific task workflows
