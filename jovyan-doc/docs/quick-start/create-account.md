@@ -28,6 +28,17 @@ The easiest way to get started. Sign up for a Jovyan AI account to access all ma
 
 That's it! You're ready to start using Jovyan AI with your free trial.
 
+### Code-Server / Browser-Based Environments {#code-server--browser-based-environments}
+
+If you're using Jovyan AI in [code-server](https://github.com/coder/code-server) or another browser-based VS Code environment, the sign-in process works slightly differently since deep links (`vscode://`) are not available.
+
+1. Click **"Try Jovyan AI for Free"** or **"Log in"** in the extension
+2. A new browser tab opens where you sign in with your Google or GitHub account
+3. While you authenticate, the extension shows a loading indicator with "Authenticating... Check your browser"
+4. Once you complete sign-in on the website, the extension automatically detects it and connects — no need to manually copy tokens or codes
+
+If the browser tab doesn't open automatically, check your popup blocker settings. The authentication expires after 10 minutes, so if it times out, simply click the login button again.
+
 ---
 
 ## Option 2: ChatGPT Account Login

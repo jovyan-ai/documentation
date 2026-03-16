@@ -24,6 +24,16 @@ Install using one of these methods:
 After installation, find the Jovyan AI icon in the Side Bar or press `Ctrl+Shift+A` (Windows/linux) or `Cmd+Shift+A` to open the Jovyan AI panel.
 
 
+## Install on code-server (Browser-Based VS Code)
+
+Jovyan AI works in [code-server](https://github.com/coder/code-server) and other browser-based VS Code environments. Because these environments run in a browser, the sign-in flow uses a device authorization method instead of deep links.
+
+1. Install the extension from the marketplace within code-server (search "Jovyan")
+2. When you click **"Try Jovyan AI for Free"** or **"Log in"**, a browser tab opens for authentication
+3. Sign in on the website, then return to code-server — it detects the login automatically (no manual action needed)
+
+See [Create Your Account](/quick-start/create-account#code-server--browser-based-environments) for details on the authentication flow.
+
 ## Install from Marketplace
 Alternatively, for other IDEs that are forks of Code OSS, you can:
 
