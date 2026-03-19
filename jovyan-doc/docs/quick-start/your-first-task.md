@@ -14,7 +14,21 @@ Click the Jovyan AI icon in the VS Code Side Bar (vertical bar on the side of th
 Alternatively, you can use the shortcut `Ctrl+Shift+A` (Windows/Linux) or `Cmd+Shift+A` (macOS) to quickly open Jovyan AI.
 If you don't see the icon, verify the extension is installed and enabled.
 
-## Step 2: Type Your Data Analysis Task
+## Step 2: Initialize Your Project with `/init`
+
+If this is your first time working on a repo with Jovyan AI, type **`/init`** in the chat and press Enter. This command:
+
+- **Scans your project** — detects package manager, Python environment, Git and DVC setup
+- **Asks a few clarifying questions** — so the AI understands your objective and context
+- **Proposes an initialization plan** — with recommended actions you can approve or skip
+
+`/init` is approval-driven: it investigates first, then asks for permission before making any changes. Once complete, Jovyan AI suggests a few next tasks to get you started.
+
+:::tip
+You can run `/init` again any time you switch to a different repo or want to re-orient the AI on your project.
+:::
+
+## Step 3: Type Your Data Analysis Task
 
 Type a clear, concise description of what you want Jovyan AI to do in the chat box at the bottom of the panel. Examples of effective tasks:
 
@@ -22,11 +36,11 @@ Type a clear, concise description of what you want Jovyan AI to do in the chat b
 * "Create and tune a xgboost model on this data to predict sales"
 * "Analyze the marketing data and estimate the impact of promotion campaign on traffic"
 
-## Step 3: Send Your Task
+## Step 4: Send Your Task
 
 Press Enter or click the Send icon to the right of the input box.
 
-## Step 4: Review and Approve Actions
+## Step 5: Review and Approve Actions
 
 Jovyan AI analyzes your request and proposes specific actions. These may include:
 
@@ -43,7 +57,7 @@ Jovyan AI shows exactly what action it wants to perform and waits for your appro
 The level of autonomy is configurable, allowing you to make the agent more or less autonomous. See [Settings](/customization/settings) for auto-approval options.
 :::
 
-## Step 5: Iterate and Refine
+## Step 6: Iterate and Refine
 
 Jovyan AI works iteratively. After each action, it waits for your feedback before proposing the next step. Continue this review-approve cycle until your task is complete.
 
