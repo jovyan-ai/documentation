@@ -13,6 +13,7 @@ Slash commands are quick actions you type directly in the chat input. Type `/` t
 | `/newtask` | | Start a new task with context carried over from the current conversation |
 | `/init` | | Run checks, clarify context if needed, and propose an initialization plan |
 | `/smol` | `/compact`, `/condense` | Summarize the current conversation to reduce context size |
+| `/rewind` | | Open the rewind dialog to jump back to an earlier message |
 | `/newrule` | | Create a new rule file in `.jovyan/rules/` based on the current conversation |
 | `/reportbug` | | File a bug report with relevant context from your session |
 
@@ -37,6 +38,16 @@ Runs a structured project initialization workflow:
 ### /smol (Condense Context)
 
 When your conversation grows long, `/smol` summarizes it to free up context space. This preserves essential details while reducing token usage — helpful for long-running tasks or when you see warnings about approaching context limits.
+
+### /rewind
+
+Opens a picker of earlier **user messages** so you can choose where to rewind from. After selecting a message, you can:
+
+1. Fork the conversation from that point
+2. Rewind code to the nearest checkpoint for that message
+3. Fork the conversation and rewind code together
+
+If no checkpoint exists for the selected message, conversation forking is still available but code rewind is disabled.
 
 ### /newrule
 

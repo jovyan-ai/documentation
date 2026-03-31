@@ -50,7 +50,7 @@ An open protocol that lets Jovyan AI connect to external servers for additional 
 
 ### Checkpoints
 
-Automatic snapshots of files before Jovyan AI modifies them. You can revert any file change by clicking the Revert button in the chat history.
+Automatic code snapshots created before Jovyan AI changes your workspace. Rewind actions use checkpoints to restore AI-made edits, fork a conversation from an earlier message, or replay a task from its starting state. Checkpoints only cover changes made through Jovyan AI's editing tools, not files you edited manually or through shell commands.
 
 ### Tokens
 

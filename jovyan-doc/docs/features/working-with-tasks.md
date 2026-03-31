@@ -51,19 +51,34 @@ You can type a message and then click **Approve** or **Reject** to explain your 
 
 ## Reverting Changes
 
-Sometimes you need to undo actions or try a different approach. Jovyan AI provides several ways to revert changes and correct course.
+Sometimes you need to undo actions or branch off from an earlier prompt. Jovyan AI provides a rewind system for both conversation history and code snapshots.
 
-### Revert File Changes with Checkpoint
+### Rewind from a Previous Message
 
-Every time Jovyan AI modifies a file, it creates a **checkpoint** - a snapshot of the file before the change. This allows you to safely revert modifications if something goes wrong or if you change your mind.
+Every time Jovyan AI edits your workspace through its editing tools, it creates a **checkpoint** before writing changes. This includes normal file edits and supported notebook edits. You can use the **history** icon on any earlier user message to open rewind options:
 
-**To revert a file change:**
+1. **Fork Conversation From Here** - Starts a new task from that message and prefills the old prompt. Your current code stays as-is.
+2. **Rewind Code to Here** - Restores code to the nearest checkpoint at or before that message. Your current conversation stays intact.
+3. **Fork Conversation and Rewind Code** - Creates a new task from that message and restores code to the matching checkpoint.
 
-1. Look for the checkpoint indicator in the chat history where the file was modified
-2. Click the **Revert** button next to the file change
-3. The file instantly returns to its pre-modification state
+If no checkpoint exists for that point in the conversation, code rewind options are unavailable and you can still fork the conversation only.
 
-Checkpoints are preserved throughout the task session, so you can revert changes made several steps ago without affecting other modifications.
+:::info
+Rewind only affects code snapshots created by Jovyan AI. Files you changed manually or via bash commands are not rolled back.
+:::
+
+### Replay the Whole Task
+
+The **Replay Task** button in the task header is a shortcut for starting over from the beginning:
+
+1. It restores code to the task's initial checkpoint
+2. It starts a fresh task with the same original prompt
+
+This is useful when you want to retry the task with a clean workspace state.
+
+### Restore a Specific Checkpoint
+
+Checkpoint entries in the chat history still let you inspect and restore a specific saved snapshot. This is useful when you know the exact point you want to return to.
 
 ### Cancel and Rewrite a Response
 
@@ -75,11 +90,11 @@ If Jovyan AI's approach isn't what you expected, you can cancel its current resp
 - Send your message to guide the AI in a different direction
 
 **After a response is complete:**
-- Click the **Delete** icon on your previous message to modify your original request
-- Jovyan AI will regenerate its response based on the updated instructions
+- Use the **history** icon on an earlier message to fork from that point
+- Adjust the prefilled prompt in the new task and send it again
 
 :::info
-When you edit a message and regenerate, any subsequent messages are deleted, creating a new branch in your task history.
+Forking creates a new task branch from that point in history. Your current task remains available in task history.
 :::
 
 ## Task Completion
