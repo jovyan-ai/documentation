@@ -16,7 +16,7 @@ Jovyan AI **accelerates data science** by automating manual tasks, so your team 
 ## Get Started in 3 Steps
 
 1. **[Install the Extension](/quick-start/installing)** - One click from your IDE
-2. **[Create Your Account](/quick-start/create-account)** - Free 30-day Pro+ trial, no credit card
+2. **[Create Your Account](/quick-start/create-account)** - Free 30-day Pro trial, no credit card
 3. **[Run Your First Task](/quick-start/your-first-task)** - See Jovyan AI in action
 
 ## Explore Features

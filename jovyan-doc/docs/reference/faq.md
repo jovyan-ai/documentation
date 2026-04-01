@@ -30,7 +30,7 @@ Yes, on the Free plan. You'll need to provide your own API keys from providers l
 
 ### Is there a free trial?
 
-Yes! New users get a 30-day free trial of the Pro+ plan — no credit card required. You'll have full access to all hosted models during the trial.
+Yes! New users get a 30-day free trial of the Pro plan — no credit card required. You'll have full access to all hosted models during the trial.
 
 ### What are the subscription plans?
 
