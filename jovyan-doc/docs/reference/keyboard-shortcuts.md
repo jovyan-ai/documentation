@@ -41,14 +41,6 @@ Open the Command Palette (`Cmd+Shift+P` / `Ctrl+Shift+P`) and search for "Jovyan
 | `Jovyan AI: Export Settings` | Export your configuration to a JSON file |
 | `Jovyan AI: Import Settings` | Import settings from a JSON file |
 
-## Git Integration
-
-Jovyan AI adds a button to the Source Control panel (SCM) for generating commit messages:
-
-1. Stage your changes in the Source Control panel
-2. Click the **Jovyan AI** icon next to the commit message input
-3. A commit message is generated based on your staged changes
-
 ## Related
 
 - [Settings](/customization/settings) - Configure Jovyan AI

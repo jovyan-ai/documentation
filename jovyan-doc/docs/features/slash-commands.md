@@ -12,7 +12,7 @@ Slash commands are quick actions you type directly in the chat input. Type `/` t
 |---------|---------|-------------|
 | `/newtask` | | Start a new task with context carried over from the current conversation |
 | `/init` | | Run checks, clarify context if needed, and propose an initialization plan |
-| `/smol` | `/compact`, `/condense` | Summarize the current conversation to reduce context size |
+| `/condense` | `/compact`, `/smol` | Compress the current conversation to free up context |
 | `/rewind` | | Open the rewind dialog to jump back to an earlier message |
 | `/newrule` | | Create a new rule file in `.jovyan/rules/` based on the current conversation |
 | `/reportbug` | | File a bug report with relevant context from your session |
@@ -35,9 +35,9 @@ Runs a structured project initialization workflow:
 
 `/init` stays approval-driven: it investigates first, then asks for permission before writes or commands.
 
-### /smol (Condense Context)
+### /condense
 
-When your conversation grows long, `/smol` summarizes it to free up context space. This preserves essential details while reducing token usage — helpful for long-running tasks or when you see warnings about approaching context limits.
+When your conversation grows long, `/condense` compresses it to free up context space. Use `/condense` on its own to compress the conversation, or `/condense <request>` to compress and immediately start a new task in one step. This preserves essential details while reducing token usage — helpful for long-running tasks or when you see warnings about approaching context limits.
 
 ### /rewind
 
@@ -99,4 +99,4 @@ You can type `/eda-workflow` in the chat to run those instructions as a task. Th
 
 - [Rules & Workflows](/customization/rules-workflows) - Create custom workflow files
 - [Modes & AI Agent](/features/modes-ai-agent) - Built-in modes and when to use them
-- [Context & @Mentions](/features/context-mentions) - Use `/smol` to manage context
+- [Context & @Mentions](/features/context-mentions) - Use `/condense` to manage context

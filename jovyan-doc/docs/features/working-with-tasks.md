@@ -97,6 +97,16 @@ If Jovyan AI's approach isn't what you expected, you can cancel its current resp
 Forking creates a new task branch from that point in history. Your current task remains available in task history.
 :::
 
+## Queued Feedback
+
+You can type follow-up instructions while a task is still running — no need to wait for it to finish. Your messages are queued and automatically delivered to the assistant on the next turn.
+
+A banner above the chat input shows your queued messages. Click **Send now** to interrupt the current task and deliver your feedback immediately.
+
+## Thinking Indicator
+
+While Jovyan AI is generating a response, an animated thinking indicator appears in the chat. Successful completions no longer show a separate status row, keeping the conversation clean. Errors and cancellations still appear inline.
+
 ## Task Completion
 
 When the AI agent determines that your request has been fulfilled, it will suggest completing the task.
@@ -139,4 +149,4 @@ See [Settings > Auto-Approve > Auto Review](/customization/settings#auto-review)
 * [Working with Notebooks](/features/notebooks) - Notebook-specific task workflows
 * [Modes & AI Agent](/features/modes-ai-agent) - Choose the right mode for your task
 * [Context & @Mentions](/features/context-mentions) - Add files, data, and more to your task
-* [Slash Commands](/features/slash-commands) - Quick actions like `/newtask` and `/smol`
+* [Slash Commands](/features/slash-commands) - Quick actions like `/newtask` and `/condense`

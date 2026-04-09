@@ -96,7 +96,6 @@ Control when Jovyan AI can act without explicit approval:
 - **Write Operations**: Auto-approve file creation and modification
 - **Terminal Commands**: Auto-approve command execution (limited to allowed commands)
 - **Browser Actions**: Auto-approve web browsing
-- **MCP Tools**: Auto-approve Model Context Protocol tool usage
 - **Mode Switching**: Auto-approve switching between modes
 - **Subtasks**: Auto-approve subtask creation and completion
 
@@ -161,6 +160,10 @@ Jovyan AI: Import Settings
 ```
 
 This imports settings from a previously exported JSON file.
+
+## Secret Masking
+
+Jovyan AI automatically masks secrets (API keys, tokens, passwords, connection strings) in your files before sending them to the model. Masked values are transparently restored in generated code, so your credentials are never exposed during conversations. This works automatically — no configuration is needed.
 
 ## Best Practices
 

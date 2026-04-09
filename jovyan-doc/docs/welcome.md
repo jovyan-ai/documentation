@@ -29,7 +29,6 @@ Jovyan AI **accelerates data science** by automating manual tasks, so your team 
 | [Context & @Mentions](/features/context-mentions) | Reference files, folders, terminal, git, and URLs |
 | [Code Actions](/features/code-actions) | Right-click to explain, fix, or improve code |
 | [Slash Commands](/features/slash-commands) | Quick actions and custom workflows |
-| [MCP Integration](/features/mcp) | Extend with external tools and databases |
 
 ## Customize
 

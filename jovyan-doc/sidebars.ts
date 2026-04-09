@@ -22,7 +22,6 @@ const sidebars: SidebarsConfig = {
         'features/context-mentions',
         'features/code-actions',
         'features/slash-commands',
-        'features/mcp',
       ],
     },
     {

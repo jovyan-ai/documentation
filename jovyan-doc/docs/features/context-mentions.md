@@ -111,7 +111,7 @@ Use the **New task** button to clear all previous context and start with a clean
 
 #### Condense Context
 
-Use the `/smol` [slash command](/features/slash-commands) or the condense context button to summarize the context after completing a subtask.
+Use the `/condense` [slash command](/features/slash-commands) or the condense context button to compress the context after completing a subtask.
 
 #### Write to File
 
@@ -128,5 +128,5 @@ Jovyan AI provides signals when context is getting full, such as warning message
 ## Related
 
 - [Working with Notebooks](/features/notebooks) - How notebooks are read into context
-- [Slash Commands](/features/slash-commands) - Use `/smol` to condense context
+- [Slash Commands](/features/slash-commands) - Use `/condense` to compress context
 - [Settings](/customization/settings) - Configure context and auto-condense options

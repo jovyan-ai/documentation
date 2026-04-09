@@ -83,7 +83,7 @@ For notebooks with many cells or large outputs (e.g., big DataFrames, high-resol
 
 **Tips for large notebooks:**
 - Reference specific cells when possible ("fix cell 12") rather than asking about the whole notebook
-- Use the [/smol](/features/slash-commands) command to condense context if your conversation grows long
+- Use the [/condense](/features/slash-commands) command to compress context if your conversation grows long
 - Start a new task for unrelated notebook edits
 
 ## Python Interactive Windows

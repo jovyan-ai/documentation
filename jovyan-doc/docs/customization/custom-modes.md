@@ -80,7 +80,6 @@ Control which capabilities your custom mode has access to:
 | `edit` | Write files, apply diffs, modify files |
 | `command` | Execute terminal commands |
 | `browser` | Web browsing and automation |
-| `mcp` | Use MCP server tools |
 
 ### Restricting Edit Access
 
@@ -243,4 +242,3 @@ Before sharing a custom mode:
 
 - [Rules & Workflows](./rules-workflows) - Define project guidelines and workflows
 - [Settings](./settings) - Configure Jovyan AI
-- [MCP Integration](/features/mcp) - Extend with external tools

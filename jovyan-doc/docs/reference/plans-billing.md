@@ -37,6 +37,8 @@ Access all hosted models through Jovyan AI with standard usage. No API key setup
 
 New users get a **30-day free trial of Pro** — no credit card required. During the trial you have full access to all hosted models with Pro usage limits.
 
+During the trial, the model selector only shows models available on your current plan. Profiles that use a paid-only model are greyed out with an upgrade tooltip, so you always know which models require a subscription.
+
 After the trial ends, your account moves to the Free plan. You can subscribe to any paid plan at any time.
 
 ## Available Hosted Models

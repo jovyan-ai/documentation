@@ -13,12 +13,12 @@ Modes are specialized personas that tailor the assistant's behavior to your task
 ### Available Modes
 
 **Code Mode**
-- Full access to read, edit, browser, command, and MCP tools
+- Full access to read, edit, browser, and command tools
 - For: All data science tasks from data collection and cleaning to modeling and deployment
 - Example: *"Build a data pipeline for processing sales data"*
 
 **Data Cleaning Mode**
-- Full access to read, edit, browser, command, and MCP tools
+- Full access to read, edit, browser, and command tools
 - For: Specialized data quality analysis, cleaning datasets, handling missing values, normalizing formats
 - Example: *"Clean this dataset and handle the missing values"*
 

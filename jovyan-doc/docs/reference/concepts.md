@@ -44,10 +44,6 @@ See [Modes & AI Agent](/features/modes-ai-agent).
 
 Markdown files in `.jovyan/rules/` that define project-specific guidelines. Rules are automatically included in the AI's context. See [Rules & Workflows](/customization/rules-workflows).
 
-### MCP (Model Context Protocol)
-
-An open protocol that lets Jovyan AI connect to external servers for additional tools like database access, web search, or custom APIs. See [MCP Integration](/features/mcp).
-
 ### Checkpoints
 
 Automatic code snapshots created before Jovyan AI changes your workspace. Rewind actions use checkpoints to restore AI-made edits, fork a conversation from an earlier message, or replay a task from its starting state. Checkpoints only cover changes made through Jovyan AI's editing tools, not files you edited manually or through shell commands.

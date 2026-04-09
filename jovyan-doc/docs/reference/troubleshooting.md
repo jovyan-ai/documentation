@@ -64,7 +64,7 @@ Common issues and their solutions. If your problem isn't listed here, check the 
 ### "Context too long" errors
 
 1. Start a new task with the `+` button
-2. Use `/smol` to [condense context](/features/slash-commands)
+2. Use `/condense` to [compress context](/features/slash-commands)
 3. Reference specific files instead of entire folders
 4. Use a model with a larger context window
 
@@ -97,22 +97,6 @@ Common issues and their solutions. If your problem isn't listed here, check the 
 1. The terminal buffer has limited content — long outputs may be truncated
 2. Use `@terminal` to explicitly include terminal content in context
 3. Check terminal output line limit in settings
-
-## MCP Issues
-
-### MCP server not starting
-
-1. Check that the required runtime (Node.js, Python, etc.) is installed
-2. Verify the command in `mcp.json` is correct and executable
-3. Check Output panel: View > Output > select "Jovyan AI MCP"
-4. Ensure environment variables are set correctly
-
-### MCP tools not appearing
-
-1. Wait a few seconds after server startup for tools to register
-2. Restart the MCP server from settings
-3. Check that the server actually provides the expected tools
-4. Verify the mcp.json file is in the correct location (`.jovyan/mcp.json` or `~/.jovyan/mcp.json`)
 
 ## Still Need Help?
 

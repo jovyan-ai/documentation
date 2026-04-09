@@ -224,4 +224,3 @@ If global and project rules conflict:
 
 - Create [Custom Modes](./custom-modes.md) for specialized behaviors
 - Configure [Settings](./settings.md)
-- Explore [MCP Integration](../core-features/mcp.md)
