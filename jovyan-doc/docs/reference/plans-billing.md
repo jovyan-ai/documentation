@@ -49,7 +49,7 @@ Paid plans include access to all of these models:
 |----------|--------|
 | **Anthropic** | Claude Opus 4.6, Claude Sonnet 4.6, Claude Sonnet 4.5, Claude Opus 4.5, Claude Haiku 4.5 |
 | **OpenAI** | GPT-5.2, GPT-5.1, GPT-5 Mini |
-| **Google** | Gemini 3.1 Pro, Gemini 3 Pro, Gemini 3 Flash, Gemini 2.5 Pro, Gemini 2.5 Flash |
+| **Google** | Gemini 3.1 Pro, Gemini 3 Pro, Gemini 3 Flash, Gemini 3 Flash Preview, Gemini 2.5 Pro, Gemini 2.5 Flash |
 | **Mistral** | Mistral Large 3 |
 
 New models are added regularly. Check the model selector in the extension for the latest list.

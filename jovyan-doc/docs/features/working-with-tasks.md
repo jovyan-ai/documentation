@@ -144,6 +144,31 @@ The review is written in your configured language. If you work in French, the re
 
 See [Settings > Auto-Approve > Auto Review](/customization/settings#auto-review) for configuration details.
 
+## Freeing Up Disk Space
+
+Over time, task checkpoints and conversation history can consume significant disk space. The task cleanup dialog lets you reclaim it without manually hunting through storage directories.
+
+### Opening the Cleanup Dialog
+
+Click the **trash** icon in the task history panel header to open the cleanup dialog.
+
+### What You Can Delete
+
+- **Old checkpoints only** — Remove saved code snapshots for tasks older than a chosen time period, while keeping the conversation history.
+- **Entire tasks** — Delete the full task record (conversation + checkpoints) for tasks older than a chosen time period.
+
+Use the time-period selector (e.g., older than 7 days, 30 days, 90 days) to control which tasks are affected.
+
+### How It Works
+
+- A **progress bar** tracks deletion during bulk operations so you can see how much has been cleaned up.
+- **Orphaned task directories** — storage folders left behind by tasks that no longer have a matching record — are automatically detected and included in the cleanup.
+- **Favorited tasks are protected** and will never be deleted by the cleanup dialog, regardless of age.
+
+:::tip
+If you use checkpoints heavily, a periodic cleanup of checkpoints older than 30 days is a good way to keep disk usage in check without losing conversation history.
+:::
+
 ## Related
 
 * [Working with Notebooks](/features/notebooks) - Notebook-specific task workflows

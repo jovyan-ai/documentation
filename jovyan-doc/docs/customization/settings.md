@@ -85,8 +85,8 @@ Most settings are configured through the Jovyan AI settings panel. Here are the 
 
 - **Provider Selection**: Choose your AI provider (Anthropic, OpenAI, Google, etc.)
 - **API Keys**: Securely store API keys for each provider
-- **Model Selection**: Choose which model to use for each provider
-- **Model Parameters**: Adjust temperature and other model settings
+- **Model Selection**: Pick a model from a unified dropdown directly in the chat interface. The dropdown supports search, favorites, and auto-switches to the correct provider when you select a model. The default model is Gemini 3 Flash Preview. Jovyan AI ships with a pre-configured model list for the hosted provider; other providers (Anthropic, OpenAI, etc.) start with an empty list — open **Settings → Provider** and choose which models appear in the selector for each provider. Advanced per-model parameters (temperature, context window, etc.) remain in the Settings panel.
+- **Model Parameters**: Adjust temperature and other model settings per model
 
 ### Auto-Approve Settings
 
