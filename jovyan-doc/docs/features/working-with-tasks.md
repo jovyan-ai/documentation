@@ -144,6 +144,31 @@ The review is written in your configured language. If you work in French, the re
 
 See [Settings > Auto-Approve > Auto Review](/customization/settings#auto-review) for configuration details.
 
+### Review Panel
+
+When a review opens, the document appears in a **full-size editor panel** rather than a small inline preview. The panel supports:
+
+- **Text highlighting** — select any text in the document to attach an inline comment to that specific passage
+- **Inline commenting** — comments anchor to code blocks and formatted text, preserving context
+- **Sidebar** — shows review controls, a summary of all comments, and the approve/reject buttons
+
+Bullet points and numbered lists inside the reviewed document render correctly in the panel.
+
+### Agent-Initiated Review (`request_review`)
+
+The agent can pause mid-task and ask you to review a markdown document before it continues — for example, after drafting an experiment plan or analysis report.
+
+**How it works:**
+
+1. The agent finishes a document and triggers a review request
+2. A dedicated review dialog opens with two clear choices:
+   - **Validate** — approve the document so the agent can proceed
+   - **Send feedback** — type free-form feedback for the agent to act on
+3. You can also highlight text anywhere in the document to attach inline comments
+4. When you submit, the agent receives your overall feedback together with each inline comment's quoted text and location
+
+This gives the agent precise, structured feedback without requiring you to describe every issue from memory.
+
 ## Freeing Up Disk Space
 
 Over time, task checkpoints and conversation history can consume significant disk space. The task cleanup dialog lets you reclaim it without manually hunting through storage directories.
